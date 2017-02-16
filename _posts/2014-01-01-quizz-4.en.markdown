@@ -34,6 +34,7 @@ title:  "Quizz #4: Rails"
 ➜
 ```
 
+
 <p>What are the 2 created files?</p>
 
 <div class="answer"></div>
@@ -218,8 +219,6 @@ resources :songs
 
 
 
-
-
 ```
 
 
@@ -252,8 +251,6 @@ class SongsController < ApplicationController
 
 
 
-
-
 end
 ```
 
@@ -268,8 +265,6 @@ class SongsController < ApplicationController
 
   end
   def create
-
-
 
 
 

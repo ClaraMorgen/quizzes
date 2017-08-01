@@ -80,19 +80,21 @@ title:  "Quizz #3: DB & ActiveRecord"
 </div>
 
 ```ruby
-class CreateBooks < ActiveRecord::Migration[5.0]
-  def up
-    create_table :books do |t|
+class CreateAuthors < ActiveRecord::Migration[5.0]
+  def change
+    create_table :authors do |t|
 
 
-    end
+
   end
 end
 ```
 
 ```ruby
-class CreateAuthors < ActiveRecord::Migration[5.0]
+class CreateBooks < ActiveRecord::Migration[5.0]
   def change
+
+
 
 
   end
@@ -102,6 +104,19 @@ end
 ```ruby
 class CreateUsers < ActiveRecord::Migration[5.0]
   def change
+
+
+
+
+  end
+end
+```
+
+```ruby
+class CreateReadings < ActiveRecord::Migration[5.0]
+  def change
+
+
 
 
   end
@@ -127,6 +142,20 @@ end
   Define an ActiveRecord model for each table of your DB.
   Add the ActiveRecord associations between models.
 </div>
+
+```ruby
+class
+
+
+
+```
+
+```ruby
+class
+
+
+
+```
 
 ```ruby
 class

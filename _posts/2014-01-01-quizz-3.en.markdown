@@ -122,13 +122,14 @@ class CreateReadings < ActiveRecord::Migration[5.0]
   end
 end
 ```
+<div style="page-break-after:always;"></div>
 
 <div class="question">
   Write a migration to add a column <code>category</code> to the books table.
 </div>
 
 ```ruby
-class AddCategoryToBook < ActiveRecord::Migration[5.0]
+class AddCategoryToBooks < ActiveRecord::Migration[5.0]
   def change
 
 
@@ -136,7 +137,6 @@ class AddCategoryToBook < ActiveRecord::Migration[5.0]
 end
 ```
 
-<div style="page-break-after:always;"></div>
 
 <div class="question">
   Define an ActiveRecord model for each table of your DB.
@@ -196,6 +196,7 @@ class
 
 # The end
 ```
+<div style="page-break-after:always;"></div>
 
 <div class="question">
   Add validations of your choice to the <code>Author</code> class. Can we save an object in DB if its validations do not pass?
